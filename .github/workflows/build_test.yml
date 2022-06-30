@@ -42,7 +42,7 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ID }}
-        application_name: django-github-actions-aws
+        application_name: django-github-action-aws
         environment_name: django-github-action-aws
         version_label: 12348
         region: "us-east-2"
